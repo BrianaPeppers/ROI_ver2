@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/fav.png" type="image/png">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/ee56650e50.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts ~ Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <title>TB ver1</title>
+</head>
+
+<body>
+    <section>
+        <!-- header -->
+        <header class="header-wrap">
+            <div class="wrap">
+                <!-- TB logo -->
+                <div class="img-box">
+                    <a href="index.html">
+                        <img src="../img/TBLogo.PNG" alt="LOGO">
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quesitons -->
+        <form class="Qs">
+
+            <div class="form-group">
+                <!-- Q1 -->
+                <label for="exampleFormControlSelect1">
+                    On average, how many hours are spent monthly on administrative
+                    work concerning donations?
+                    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                        data-placement="left" data-content="This includes generating and communicating donation reports, 
+                        hours spent tracking and reporting on in-kind donation gifts, reconciling 
+                        donations with accounting systems, and hours spent writing thank you letters for donations.">
+                        Help
+                    </button>
+                </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>range 1</option>
+                    <option>range 2</option>
+                    <option>range 3</option>
+                    <option>range 4</option>
+                    <option>range 5</option>
+                </select>
+            </div>
+
+            <!-- Q2 -->
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">
+                    On average, how many hours are spent monthly conducting and
+                    planning major outreach and matching gift campaigns?
+                </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>range 1</option>
+                    <option>range 2</option>
+                    <option>range 3</option>
+                    <option>range 4</option>
+                    <option>range 5</option>
+                </select>
+            </div>
+
+            <!-- Q3 -->
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">
+                    On average, how many hours are spent on administrative work
+                    concerning grants?
+                    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                        data-placement="right" data-content="This includes hours spent managing your grant pipeline, 
+                        managing/reporting grant deadlines, hours spent generating and communicating grant reports 
+                        and hours spent on allocation.">
+                        Help
+                    </button>
+                </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>range 1</option>
+                    <option>range 2</option>
+                    <option>range 3</option>
+                    <option>range 4</option>
+                    <option>range 5</option>
+                </select>
+            </div>
+
+            <!-- Q4 -->
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">
+                    On average, how many hours are spent tracking, reporting, and preparing tax receipts annually?
+                </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>range 1</option>
+                    <option>range 2</option>
+                    <option>range 3</option>
+                    <option>range 4</option>
+                    <option>range 5</option>
+                </select>
+            </div>
+
+            <!-- Next -->
+            <a href="moneyQs.html">
+                <button type="button" class="btn btn-success">Next</button>
+            </a>
+        </form>
+
+
+
+    </section>
+
+    <!-- jQuery, Poppers, Bootstrap.JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+
+</body>
+
+</html>

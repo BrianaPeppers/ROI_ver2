@@ -1,0 +1,40 @@
+div.roi-container {
+  max-width: 1024px;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+div.roi-container h1.roi-calc {
+  font-size: 4rem;
+  text-align: center;
+  padding: 3rem 0;
+  flex-basis: 100%;
+}
+div.roi-container div.roi-box {
+  flex-basis: 30%;
+  background-color: #f8fafd;
+  min-height: 45vh;
+  max-height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem 0;
+  padding: 1.5rem;
+}
+div.roi-container div.roi-box h3, div.roi-container div.roi-box p {
+  text-align: center;
+}
+div.roi-container div.roi-box img {
+  flex-basis: 35%;
+}
+div.roi-container div.roi-box button {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+/*# sourceMappingURL=home.css.map */

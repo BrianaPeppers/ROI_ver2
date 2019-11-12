@@ -1,0 +1,34 @@
+header.header-wrap {
+  width: 100vw;
+  min-height: 15vh;
+  background-color: #7ec142;
+  display: flex;
+  justify-content: center;
+}
+
+div.wrap {
+  max-width: 1024px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.wrap div.img-box {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.wrap div.img-box img {
+  width: 85%;
+  height: 100%;
+  overflow: hidden;
+}
+div.wrap div.account-links a {
+  font-size: 2.7rem;
+  color: whitesmoke;
+  padding: 0 2rem;
+}
+
+/*# sourceMappingURL=header.css.map */

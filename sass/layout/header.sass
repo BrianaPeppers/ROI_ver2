@@ -1,0 +1,28 @@
+@import '../abstracts/_abstracts'
+
+header.header-wrap
+    width: 100vw
+    min-height: 15vh
+    background-color: $green
+    display: flex
+    justify-content: center
+div.wrap
+    @include wrap
+    display: flex
+    align-items: center
+    justify-content: space-between
+    div.img-box
+        width: 30%
+        height: 90%
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            width: 85%
+            height: 100%
+            overflow: hidden
+    div.account-links
+        a
+            font-size: 2.7rem
+            color: whitesmoke
+            padding: 0 2rem
