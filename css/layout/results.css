@@ -1,3 +1,32 @@
-
+div.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+div.results h1.header {
+  padding: 2rem 0;
+  font-weight: 700;
+  font-size: 3rem;
+}
+div.results h1 {
+  flex-basis: 100%;
+  text-align: center;
+}
+div.results div.result-box {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+  text-align: center;
+}
+div.results div.result-box i {
+  font-size: 4rem;
+}
 
 /*# sourceMappingURL=results.css.map */

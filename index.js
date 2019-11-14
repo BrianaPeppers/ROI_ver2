@@ -10,13 +10,9 @@ var ROI = {
     clients: 0
 }
 
-//Storing the values
-
-
 //Collecting Time
 function time(){
     var hours = [$('#timeQ1').val(), $('#timeQ2').val(), $('#timeQ3').val(), $('#timeQ4').val()];
-    // ROI = update(sessionStorage.getItem('inputs'));
     ROI.time = hours.reduce((a,b) => parseInt(a)+parseInt(b),0);
     sessionStorage.setItem("inputs", JSON.stringify(ROI));
     
@@ -43,3 +39,18 @@ function costDollarRaised(){
 function update(ROI){
     return JSON.parse(ROI);
 }
+
+//Displaying Results
+
+    ROI = JSON.parse(sessionStorage.getItem('inputs'))
+    $('#dollarsSaved').html('$' + this.ROI.dollars);
+   
+    $('#hoursSaved').html(this.ROI.time);
+
+    $('#costPerDollarRaised').html(this.ROI.cdr);
+
+    $('#clientsServed').html(this.ROI.clients);
+
+   
+
+
