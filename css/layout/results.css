@@ -1,3 +1,22 @@
-
+div.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+div.results h1 {
+  flex-basis: 100%;
+  text-align: center;
+}
+div.results div.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  padding: 1rem;
+  text-align: center;
+}
 
 /*# sourceMappingURL=results.css.map */
