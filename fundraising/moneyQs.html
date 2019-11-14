@@ -46,10 +46,10 @@
 
             <!-- Q1 -->
             <div class="form-group">
-                <label for="exampleFormControlSelect1">
+                <label for="moneyQ1">
                     On average, how much revenue is generated from donations annually?
                 </label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="moneyQ1">
                     <option value="3000">$0 - $5000</option>
                     <option value="8000">$6000 - $10,000</option>
                     <option value="13000">$11,000 - $15,000</option>
@@ -60,10 +60,10 @@
 
             <!-- Q2 -->
             <div class="form-group">
-                <label for="exampleFormControlSelect1">
+                <label for="moneyQ2">
                     On average, what is the value of grant revenue won by your organization annually?
                 </label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="moneyQ2">
                     <option value="3000">$0 - $5000</option>
                     <option value="8000">$6000 - $10,000</option>
                     <option value="13000">$11,000 - $15,000</option>
@@ -74,11 +74,11 @@
 
             <!-- Q3 -->
             <div class="form-group">
-                <label for="exampleFormControlSelect1">
+                <label for="moneyQ3">
                     On average, how much money is spent on fundraising management systems annually (this includes
                     licensing, hosting and support fees)?
                 </label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="moneyQ3">
                     <option value="3000">$0 - $5000</option>
                     <option value="8000">$6000 - $10,000</option>
                     <option value="13000">$11,000 - $15,000</option>
@@ -88,20 +88,20 @@
             </div>
 
             
-             <!-- Q5 -->
+             <!-- Q4 -->
             <div class="form-group cdr">
-                <label for="exampleFormControlSelect1">
+                <label>
                     Annual gross fundraising expenses.
                 </label>
-                <input type="number" placeholder="0" min="0" max="99999999999999">
+                <input id="CDRexpenses"type="number" step="100" placeholder="0" min="0" max="99999999999999">
             </div>
 
-            <!-- Q6 -->
+            <!-- Q5 -->
             <div class="form-group cdr">
-                <label for="exampleFormControlSeslect1">
+                <label>
                     Annual gross fundraising revenue.
                 </label>
-               <input type="number" placeholder="0" min="0" max="99999999999999">
+               <input id="CDRrevenue" type="number" step="100" placeholder="0" min="0" max="99999999999999">
             </div>
 
             <div class="btn-box">
@@ -111,7 +111,7 @@
                 </a>
                 <!-- Next -->
                 <a href="clientQs.html">
-                    <button type="button" class="btn btn-success">Next</button>
+                    <button type="submit" class="btn btn-success">Next</button>
                 </a>
             </div>
 
@@ -121,6 +121,8 @@
 
     </section>
 
+     <!-- Custom JS -->
+     <script type="text/javascript" src="../index.js"></script>
     <!-- jQuery, Poppers, Bootstrap.JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
