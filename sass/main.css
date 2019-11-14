@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+a, a:hover {
+  text-decoration: none !important;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, li, div {
+  font-family: 'PT Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 200;
+  overflow-y: hidden;
+}
+
+img {
+  overflow-y: hidden;
+}
+
+form.Qs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 75%;
+  margin: auto;
+  padding: 3rem;
+}
+
+div.form-group, a {
+  padding: 2rem 0;
+}
+
+div.form-group label, a label {
+  font-size: 2rem;
+}
+
+div.form-group label button, a label button {
+  border-radius: 60%;
+}
+
+div.form-group select, a select {
+  font-size: 1.3rem;
+  max-width: 60%;
+  min-width: 4rem;
+}
+
+div.form-group select option, a select option {
+  font-size: 1.3rem;
+}
+
+div.form-group div.btn-box, a div.btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+div.cdr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.cdr input {
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+div.popover-body {
+  font-size: 1.3rem;
+}
+
+div.progress {
+  height: 10rem;
+  padding: 2rem;
+}
+
+header.header-wrap {
+  width: 100vw;
+  min-height: 15vh;
+  background-color: #7ec142;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.wrap {
+  max-width: 1024px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.wrap div.img-box {
+  width: 30%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.wrap div.img-box img {
+  width: 85%;
+  height: 100%;
+  overflow: hidden;
+}
+
+div.wrap div.account-links a {
+  font-size: 2.7rem;
+  color: whitesmoke;
+  padding: 0 2rem;
+}
+
+div.roi-container {
+  max-width: 1024px;
+  width: 100vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.roi-container h1.roi-calc {
+  font-size: 4rem;
+  text-align: center;
+  padding: 3rem 0;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+div.roi-container div.roi-box {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  background-color: #f8fafd;
+  min-height: 45vh;
+  max-height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem 0;
+  padding: 1.5rem;
+}
+
+div.roi-container div.roi-box h3, div.roi-container div.roi-box p {
+  text-align: center;
+}
+
+div.roi-container div.roi-box img {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+div.roi-container div.roi-box button {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+div.results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+}
+
+div.results h1.header {
+  padding: 2rem 0;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+div.results h1 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+}
+
+div.results div.result-box {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem;
+  text-align: center;
+}
+
+div.results div.result-box i {
+  font-size: 4rem;
+}
+/*# sourceMappingURL=main.css.map */

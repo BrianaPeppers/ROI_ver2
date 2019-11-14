@@ -1,0 +1,83 @@
+form.Qs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 75%;
+  margin: auto;
+  padding: 3rem;
+}
+
+div.form-group, a {
+  padding: 2rem 0;
+}
+
+div.form-group label, a label {
+  font-size: 2rem;
+}
+
+div.form-group label button, a label button {
+  border-radius: 60%;
+}
+
+div.form-group select, a select {
+  font-size: 1.3rem;
+  max-width: 60%;
+  min-width: 4rem;
+}
+
+div.form-group select option, a select option {
+  font-size: 1.3rem;
+}
+
+div.form-group div.btn-box, a div.btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+div.cdr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.cdr input {
+  height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+div.popover-body {
+  font-size: 1.3rem;
+}
+
+div.progress {
+  height: 10rem;
+  padding: 2rem;
+}
+/*# sourceMappingURL=question.css.map */
