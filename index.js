@@ -45,7 +45,7 @@ function update(ROI){
 //Displaying Results
 window.onload = function(){
     ROI = JSON.parse(sessionStorage.getItem('inputs'))
-    $('#dollarsSaved').html(this.ROI.dollars);
+    $('#dollarsSaved').html('$' + this.ROI.dollars);
    
     $('#hoursSaved').html(this.ROI.time);
 
