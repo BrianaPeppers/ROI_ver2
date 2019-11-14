@@ -22,7 +22,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-    <title>TB ver1</title>
+    <title>Quesitons</title>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
             <div class="wrap">
                 <!-- TB logo -->
                 <div class="img-box">
-                    <a href="index.html">
+                    <a href="../index.html">
                         <img src="../img/TBLogo.PNG" alt="LOGO">
                     </a>
                 </div>
@@ -42,7 +42,7 @@
         <!-- Quesitons -->
         <form class="Qs">
 
-
+            <h1>Dollars Saved</h1>
 
             <!-- Q1 -->
             <div class="form-group">
@@ -50,11 +50,11 @@
                     On average, how much revenue is generated from donations annually?
                 </label>
                 <select class="form-control" id="exampleFormControlSelect1">
-                    <option>range 1</option>
-                    <option>range 2</option>
-                    <option>range 3</option>
-                    <option>range 4</option>
-                    <option>range 5</option>
+                    <option value="3000">$0 - $5000</option>
+                    <option value="8000">$6000 - $10,000</option>
+                    <option value="13000">$11,000 - $15,000</option>
+                    <option value="18000">$16,000 - $20,000</option>
+                    <option value="23000">over $20,000</option>
                 </select>
             </div>
 
@@ -64,11 +64,11 @@
                     On average, what is the value of grant revenue won by your organization annually?
                 </label>
                 <select class="form-control" id="exampleFormControlSelect1">
-                    <option>range 1</option>
-                    <option>range 2</option>
-                    <option>range 3</option>
-                    <option>range 4</option>
-                    <option>range 5</option>
+                    <option value="3000">$0 - $5000</option>
+                    <option value="8000">$6000 - $10,000</option>
+                    <option value="13000">$11,000 - $15,000</option>
+                    <option value="18000">$16,000 - $20,000</option>
+                    <option value="23000">over $20,000</option>
                 </select>
             </div>
 
@@ -79,12 +79,29 @@
                     licensing, hosting and support fees)?
                 </label>
                 <select class="form-control" id="exampleFormControlSelect1">
-                    <option>range 1</option>
-                    <option>range 2</option>
-                    <option>range 3</option>
-                    <option>range 4</option>
-                    <option>range 5</option>
+                    <option value="3000">$0 - $5000</option>
+                    <option value="8000">$6000 - $10,000</option>
+                    <option value="13000">$11,000 - $15,000</option>
+                    <option value="18000">$16,000 - $20,000</option>
+                    <option value="23000">over $20,000</option>
                 </select>
+            </div>
+
+            
+             <!-- Q5 -->
+            <div class="form-group cdr">
+                <label for="exampleFormControlSelect1">
+                    Annual gross fundraising expenses.
+                </label>
+                <input type="number" placeholder="0" min="0" max="99999999999999">
+            </div>
+
+            <!-- Q6 -->
+            <div class="form-group cdr">
+                <label for="exampleFormControlSeslect1">
+                    Annual gross fundraising revenue.
+                </label>
+               <input type="number" placeholder="0" min="0" max="99999999999999">
             </div>
 
             <div class="btn-box">
