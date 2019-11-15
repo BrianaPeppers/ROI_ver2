@@ -35,10 +35,20 @@ function costDollarRaised(){
     sessionStorage.setItem("inputs", JSON.stringify(ROI));
 }
 
+//Clients Served
+function clientsServed(){
+    //estimated service cost formula
+    var estServiceCost = ($('#clientsQ1').val()/$('#clientsQ2').val());
+    ROI = update(sessionStorage.getItem('inputs'));
+    ROI.clients = estServiceCost;
+    sessionStorage.setItem("inputs", JSON.stringify(ROI));
+}
+
 // update ROI
 function update(ROI){
     return JSON.parse(ROI);
 }
+
 
 //Displaying Results
 
