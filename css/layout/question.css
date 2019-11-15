@@ -15,7 +15,7 @@ div.form-group, a {
 div.form-group label, a label {
   font-size: 2rem;
 }
-div.form-group label button, a label button {
+div.form-group label button.btn-secondary, a label button.btn-secondary {
   border-radius: 60%;
 }
 div.form-group select, a select {
@@ -45,6 +45,11 @@ div.cdr input {
 
 div.popover-body {
   font-size: 1.3rem;
+}
+
+div.progress {
+  height: 3rem;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=question.css.map */
