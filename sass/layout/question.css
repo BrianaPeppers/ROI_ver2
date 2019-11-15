@@ -21,7 +21,7 @@ form.Qs {
 }
 
 div.form-group, a {
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 div.form-group label, a label {
@@ -30,6 +30,7 @@ div.form-group label, a label {
 
 div.form-group label button, a label button {
   border-radius: 60%;
+  font-size: 2rem;
 }
 
 div.form-group select, a select {
@@ -77,7 +78,7 @@ div.popover-body {
 }
 
 div.progress {
-  height: 10rem;
+  height: 3rem;
   padding: 2rem;
 }
 /*# sourceMappingURL=question.css.map */

@@ -50,45 +50,49 @@
 
             <!-- Q1 -->
             <div class="form-group">
-                <label for="exampleFormControlSelect1">
-                    Quesiton
+                <label for="clientsQ1">
+                    What is your organization's annual budget for the year?
                 </label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>range 1</option>
-                    <option>range 2</option>
-                    <option>range 3</option>
-                    <option>range 4</option>
-                    <option>range 5</option>
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                        data-placement="right" data-content="We understand this might be exact, but just give a rough estimate of your annual budget and we'll handle the rest!">
+                        Help!
+                </button>
+                <select class="form-control" id="clientsQ1">
+                    <option value=12500>0 - 25,000</option>
+                    <option value=37500>25,000 - 50,000</option>
+                    <option value=62500>50,000 - 75,000</option>
+                    <option value=87500>75,000 - 100,000</option>
+                    <option value=112500>100,000 - 125,000</option>
+                    <option value=137500>125,000 - 150,000</option>
+                    <!--I'll change later to add choosing 150k+ triggers an input field to pop up-->
+                    <option value=20000>150,000+</option>
                 </select>
             </div>
 
             <!-- Q2 -->
             <div class="form-group">
-                <label for="exampleFormControlSelect1">
-                    Quesiton
+                <label for="clientsQ2">
+                    How many unique clients does your organization serve in a year?
                 </label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>range 1</option>
-                    <option>range 2</option>
-                    <option>range 3</option>
-                    <option>range 4</option>
-                    <option>range 5</option>
+
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                        data-placement="right" data-content="Okay, question is about the estimated number of non-repeating (unique) clients your orgranization helps out each year">
+                        Help!
+                </button>
+
+                <select class="form-control" id="clientsQ2">
+                    <option>0-100</option>
+                    <option>100-200</option>
+                    <option>200-300</option>
+                    <option>300-400</option>
+                    <option>300-400</option>
+                    <option>400-500</option>
+                    <!--I'll change later to add choosing 500+ triggers an input field to pop up-->
+                    <option>500+</option>
                 </select>
             </div>
 
-            <!-- Q3 -->
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">
-                Quesiton
-                </label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>range 1</option>
-                    <option>range 2</option>
-                    <option>range 3</option>
-                    <option>range 4</option>
-                    <option>range 5</option>
-                </select>
-            </div>
+           
 
             <div class="btn-box">
                 <!-- Prev -->
@@ -108,6 +112,7 @@
     </section>
 
     
+   
     <!-- jQuery, Poppers, Bootstrap.JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -119,7 +124,16 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+
 </body>
-     <!-- Custom JS -->
-     <script type="text/javascript" src="../index.js"></script>
+
+
+<!-- Custom JS -->
+<script type="text/javascript" src="../index.js"></script>
+
 </html>

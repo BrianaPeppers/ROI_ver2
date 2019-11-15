@@ -54,11 +54,16 @@
                     On average, how many hours are spent monthly on administrative
                     work concerning donations?
                     <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
-                        data-placement="left" data-content="This includes generating and communicating donation reports, 
+                        data-placement="right" data-content="This includes generating and communicating donation reports, 
                         hours spent tracking and reporting on in-kind donation gifts, reconciling 
                         donations with accounting systems, and hours spent writing thank you letters for donations.">
                         Help
                     </button>
+      
+                    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="tooltip" title="!adsfasdfasdf" data-placement="left">
+                        T00lTip
+                      </button>
+                
                 </label>
                 <select class="form-control" id="timeQ1">
                     <option value=3>0 - 5 hours</option>
@@ -89,13 +94,13 @@
                 <label for="timeQ3">
                     On average, how many hours are spent on administrative work
                     concerning grants?
-                    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
-                        data-placement="right" data-content="This includes hours spent managing your grant pipeline, 
-                        managing/reporting grant deadlines, hours spent generating and communicating grant reports 
-                        and hours spent on allocation.">
-                        Help
-                    </button>
                 </label>
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                    data-placement="right" data-content="This includes hours spent managing your grant pipeline, 
+                    managing/reporting grant deadlines, hours spent generating and communicating grant reports 
+                    and hours spent on allocation.">
+                    Help
+                </button>
                 <select class="form-control" id="timeQ3">
                     <option value=3>0 - 5 hours</option>
                     <option value=8>6 - 10 hours</option>
@@ -144,6 +149,10 @@
     <script>
         $(function () {
             $('[data-toggle="popover"]').popover()
+        })
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
 
