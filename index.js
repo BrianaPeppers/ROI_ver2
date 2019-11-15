@@ -23,13 +23,24 @@ function money(){
     ROI = update(sessionStorage.getItem('inputs'));
     ROI.dollars = dollars.reduce((a,b) => parseInt(a)+parseInt(b),0); 
     sessionStorage.setItem("inputs", JSON.stringify(ROI));
+
+    
 }
 
 // CDR
 function costDollarRaised(){
-    var cdr =( $('#CDRexpenses').text()/$('#CDRrevenue').text());
+    var cdr =( $('#CDRexpenses').val()/$('#CDRrevenue').val());
     ROI = update(sessionStorage.getItem('inputs'));
     ROI.cdr = cdr;
+    sessionStorage.setItem("inputs", JSON.stringify(ROI));
+}
+
+//Clients Served
+function clientsServed(){
+    //estimated service cost formula
+    var estServiceCost = ($('#clientsQ1').val()/$('#clientsQ2').val());
+    ROI = update(sessionStorage.getItem('inputs'));
+    ROI.clients = estServiceCost;
     sessionStorage.setItem("inputs", JSON.stringify(ROI));
 }
 
@@ -37,6 +48,7 @@ function costDollarRaised(){
 function update(ROI){
     return JSON.parse(ROI);
 }
+
 
 //Displaying Results
 
