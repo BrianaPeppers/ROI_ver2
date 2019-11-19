@@ -51,7 +51,7 @@ function update(ROI){
 
 
 //Displaying Results
-
+function display(){
     ROI = JSON.parse(sessionStorage.getItem('inputs'))
     $('#dollarsSaved').html('$' + this.ROI.dollars);
    
@@ -60,6 +60,8 @@ function update(ROI){
     $('#costPerDollarRaised').html(this.ROI.cdr);
 
     $('#clientsServed').html(this.ROI.clients);
+}
+
 
    
 
